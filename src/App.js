@@ -6,7 +6,7 @@ import MovieCard from './MovieCard';
 
 // 4038db44
 
-const apiLInk = 'http://www.omdbapi.com/?i=tt3896198&apikey=4038db44';
+const apiLInk = 'https://www.omdbapi.com/?i=tt3896198&apikey=4038db44';
 
 const App = () => {
     const [movies, setMovies] = useState([]);
