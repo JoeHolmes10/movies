@@ -1,7 +1,8 @@
 import React from 'react';
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movie, shaker }) => {
     return (
         <div className="movie">
+            <a href={'https://hdtoday.tv/search/' + shaker}>
             <div>
                 <p>{movie.Year}</p>
             </div>
@@ -19,6 +20,7 @@ const MovieCard = ({ movie }) => {
                 <span>{movie.Type}</span>
                 <h3>{movie.Title}</h3>
             </div>
+            </a>
         </div>
     );
 };

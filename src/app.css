@@ -14,10 +14,10 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: #15042E;
 }
 
-.app {
+.appp {
   padding: 4rem;
 
   display: flex;
@@ -40,7 +40,7 @@ h1 {
   width: fit-content;
 }
 
-.search {
+/* .search {
   width: 71%;
   margin: 4rem 0 2rem;
 
@@ -72,7 +72,7 @@ h1 {
   width: 35px;
   height: 35px;
   cursor: pointer;
-}
+} */
 
 /* .search button {
   padding: 20px 40px;
@@ -104,7 +104,7 @@ h1 {
   font-family: var(--font-raleway);
 }
 
-.container {
+.containerr {
   width: 100%;
   margin-top: 3rem;
 
@@ -154,7 +154,7 @@ h1 {
 
 .movie div:nth-of-type(3) {
   z-index: 2;
-  background-color: #343739;
+  background-color: #F8F9FA;
   padding: 16px 24px 24px 24px;
 
   position: absolute;
@@ -169,13 +169,13 @@ h1 {
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
-  color: #f0f0f0;
+  color: #f9d3b4;
 }
 
 .movie div:nth-of-type(3) h3 {
   margin-top: 5px;
   font-family: "Roboto Slab", serif;
-  color: #f9d3b4;
+  color: #000000;
 }
 
 .movie:hover div:nth-of-type(2) {
@@ -185,6 +185,7 @@ h1 {
 
 .movie:hover div:nth-of-type(3) {
   background-color: transparent;
+  
 }
 
 .movie:hover div:nth-of-type(1) {
@@ -192,11 +193,11 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .app {
+  .appp {
     padding: 4rem 2rem;
   }
 
-  .search {
+  /* .search {
     padding: 1rem 1.75rem;
     width: 100%;
   }
@@ -208,11 +209,11 @@ h1 {
   .search img {
     width: 20px;
     height: 20px;
-  }
+  } */
 }
 
 @media screen and (max-width: 400px) {
-  .app {
+  .appp {
     padding: 4rem 1rem;
   }
 
@@ -220,7 +221,7 @@ h1 {
     font-size: 2rem;
   }
 
-  .container {
+  .containerr {
     margin-top: 2rem;
   }
 
@@ -228,4 +229,13 @@ h1 {
     width: "100%";
     margin: 1rem;
   }
+}
+footer {
+  height: 50px;
+  background-color: #F8F9FA;
+  color: black;
+  text-align: center;
+}
+.App-link {
+  color: #61dafb;
 }
